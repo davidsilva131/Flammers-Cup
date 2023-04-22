@@ -6,8 +6,9 @@ export default function App ({ Component, pageProps }) {
   return (
     <>
       <CameraProvider>
-        {/* <Layout /> */}
-        <Component {...pageProps} />
+        <Layout>
+          <Component {...pageProps} />
+        </Layout>
       </CameraProvider>
     </>
   )
