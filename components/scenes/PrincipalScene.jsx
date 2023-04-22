@@ -1,3 +1,4 @@
+'use client'
 import Octahedron from '@/models/Octahedron'
 import HomeCamera from '../cameras/HomeCamera'
 import { OrbitControls } from '@react-three/drei'
