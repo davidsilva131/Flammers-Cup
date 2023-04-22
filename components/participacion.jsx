@@ -4,13 +4,17 @@ const Participacion = ({ userPhoto, userName }) => {
     <main className='w-full bg-black flex flex-col h-screen justify-center items-center'>
       <div>
         <Image
+          className='rounded-full'
           src={userPhoto}
           alt={`${userName} photo`}
-          width={50}
-          height={50}
+          width={100}
+          height={100}
         />
       </div>
-      <span>{userName} ya estás participando del torneo!!!</span>
+      <div className='flex flex-col gap-5 items-center mt-4'>
+        <span className='text-white uppercase'>{userName}</span>
+        <span className='text-white'>Ya estás participando del sorteo!!</span>
+      </div>
     </main>
   )
 }
