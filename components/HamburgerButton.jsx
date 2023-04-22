@@ -1,7 +1,8 @@
+'use client'
 const HamburgerButton = ({ open, setOpen }) => {
   return (
     <button
-      className='w-14 h-14 relative focus:outline-none bg-transparent rounded md:hidden'
+      className='w-14 h-14 relative focus:outline-none bg-transparent rounded lg:hidden'
       onClick={() => {
         setOpen(!open)
       }}

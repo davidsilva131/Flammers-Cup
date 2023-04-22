@@ -9,7 +9,7 @@ const NavBar = () => {
     <>
       <header>
         <nav className='bg-black fixed w-full z-20 top-0 left-0'>
-          <div className='bg-black w-full flex flex-wrap items-center justify-between py-4 px-4 md:px-52'>
+          <div className='bg-black w-full flex flex-wrap items-center justify-between py-4 px-4 lg:px-52'>
             <Link
               className='flex items-center justify-start cursor-pointer'
               to='inicio'
@@ -21,7 +21,7 @@ const NavBar = () => {
                 flammerscup
               </span>
             </Link>
-            <div className='flex md:hidden md:order-2'>
+            <div className='flex lg:hidden lg:order-2'>
               <HamburgerButton open={open} setOpen={setOpen} />
             </div>
             <Links open={open} setOpen={setOpen} />
