@@ -1,6 +1,8 @@
 import { GizmoHelper, GizmoViewport } from '@react-three/drei'
 import { Canvas } from '@react-three/fiber'
 import PrincipalScene from './scenes/PrincipalScene'
+import { Suspense } from 'react'
+import Loading from './Loading'
 
 const Content = () => {
   return (
